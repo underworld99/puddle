@@ -54,12 +54,14 @@ const App: React.FC = () => {
             glowIntensity="high"
             special
           />
-          <FeatureCard
-            title="🎮 Puddle Games"
-            description="Enjoy exclusive Puddle games and earn PUDDLE tokens as rewards for top-performing players."
-            glowIntensity="high"
-            special
-          />
+          <a href="https://games.paddlehl.com">
+            <FeatureCard
+              title="🎮 Puddle Games"
+              description="Enjoy exclusive Puddle games and earn PUDDLE tokens as rewards for top-performing players."
+              glowIntensity="high"
+              special
+            />
+          </a>
           <FeatureCard
             title="🔥 Token Burn"
             description="Regular token burns to maintain scarcity and increase value for our community members."
