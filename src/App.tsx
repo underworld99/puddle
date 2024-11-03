@@ -1,5 +1,5 @@
 import React from 'react';
-import { Twitter, Gamepad2 } from 'lucide-react';
+import { Twitter, Gamepad2, ArrowLeftRight } from 'lucide-react';
 import WaveBackground from './components/WaveBackground';
 import PuddleCharacter from './components/PuddleCharacter';
 import StaticPuddle from './components/StaticPuddle';
@@ -11,6 +11,13 @@ const App: React.FC = () => {
       <WaveBackground />
       
       <div className="absolute top-4 right-4 z-50">
+      <a
+          href="https://swap.puddlehl.com/"
+          target="_blank"
+          className="text-[#91F1FF] hover:text-[#91F1FF]/80 transition-colors"
+        >
+        <ArrowLeftRight className="w-9 h-9" />
+      </a>
       <a
           href="https://games.puddlehl.com/"
           target="_blank"
@@ -37,6 +44,20 @@ const App: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mt-24">
+          <a href="https://games.puddlehl.com">
+            <FeatureCard
+              title="🎮 Puddle Games"
+              description="Enjoy exclusive Puddle games and earn PUDDLE tokens as rewards for top-performing players."
+              glowIntensity="high"
+              special
+            />
+          </a>
+          <a href="https://swap.puddlehl.com">
+            <FeatureCard
+              title="🔁 Puddle Swap"
+              description="We strive to be the first launched swap on the HyperLiquid chain."
+            />
+          </a>
           <FeatureCard
             title="💧 Staking"
             description="Our objective is to become the first stakeable token on the Hyperliquid blockchain, Stake your PUDDLE to make it DOUBLE."
@@ -48,10 +69,6 @@ const App: React.FC = () => {
             glowIntensity="high"
           />
           <FeatureCard
-            title="Puddle's Story"
-            description="In the waves of Hyperliquid, a Puddle was born, lost in the trenches, destined to form a united community to bring the Puddle back home."
-          />
-          <FeatureCard
             title="🌊 Community Driven"
             description="As the community of HYPERLIQUID, it is our responsibility to bring the SACRED and HOLY liquid, PUDDLE, back to the ocean."
           />
@@ -61,14 +78,6 @@ const App: React.FC = () => {
             glowIntensity="high"
             special
           />
-          <a href="https://games.puddlehl.com">
-            <FeatureCard
-              title="🎮 Puddle Games"
-              description="Enjoy exclusive Puddle games and earn PUDDLE tokens as rewards for top-performing players."
-              glowIntensity="high"
-              special
-            />
-          </a>
           <FeatureCard
             title="🔥 Token Burn"
             description="Regular token burns to maintain scarcity and increase value for our community members."
