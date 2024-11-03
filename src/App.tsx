@@ -1,5 +1,5 @@
 import React from 'react';
-import { Twitter } from 'lucide-react';
+import { Twitter, Gamepad2 } from 'lucide-react';
 import WaveBackground from './components/WaveBackground';
 import PuddleCharacter from './components/PuddleCharacter';
 import StaticPuddle from './components/StaticPuddle';
@@ -11,6 +11,13 @@ const App: React.FC = () => {
       <WaveBackground />
       
       <div className="absolute top-4 right-4 z-50">
+      <a
+          href="https://games.puddlehl.com/"
+          target="_blank"
+          className="text-[#91F1FF] hover:text-[#91F1FF]/80 transition-colors"
+        >
+          <Gamepad2 className="w-9 h-9" />
+        </a>
         <a
           href="https://x.com/puddleonhl"
           target="_blank"
