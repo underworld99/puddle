@@ -68,14 +68,17 @@ const App: React.FC = () => {
               isLink="true"
             />
           </a>
+          <a href="https://charity.puddlehl.com">
+            <FeatureCard
+              title="🌊 Community Driven"
+              description="As the community of HYPERLIQUID, it is our responsibility to bring the SACRED and HOLY liquid, PUDDLE, back to the ocean."
+              isLink="true"
+            />
+          </a>
           <FeatureCard
             title="🎨 NFT Collection"
             description="A single puddle, when divided, transforms into countless smaller puddles—each unique in its own way. This concept embodies the essence of our NFT creation."
             glowIntensity="high"
-          />
-          <FeatureCard
-            title="🌊 Community Driven"
-            description="As the community of HYPERLIQUID, it is our responsibility to bring the SACRED and HOLY liquid, PUDDLE, back to the ocean."
           />
           <FeatureCard
             title="🌏 Ocean Charity"
