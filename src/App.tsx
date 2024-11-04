@@ -70,21 +70,21 @@ const App: React.FC = () => {
           </a>
           <a href="https://charity.puddlehl.com">
             <FeatureCard
-              title="🌊 Community Driven"
-              description="As the community of HYPERLIQUID, it is our responsibility to bring the SACRED and HOLY liquid, PUDDLE, back to the ocean."
+              title="🌏 Ocean Charity"
+              description="Everyday a small amount will be donated to help clean the ocean and preserve marine life"
+              glowIntensity="high"
+              special
               isLink="true"
             />
           </a>
           <FeatureCard
+              title="🌊 Community Driven"
+              description="As the community of HYPERLIQUID, it is our responsibility to bring the SACRED and HOLY liquid, PUDDLE, back to the ocean."
+            />
+          <FeatureCard
             title="🎨 NFT Collection"
             description="A single puddle, when divided, transforms into countless smaller puddles—each unique in its own way. This concept embodies the essence of our NFT creation."
             glowIntensity="high"
-          />
-          <FeatureCard
-            title="🌏 Ocean Charity"
-            description="Everyday a small amount will be donated to help clean the ocean and preserve marine life"
-            glowIntensity="high"
-            special
           />
           <FeatureCard
             title="🔥 Token Burn"
