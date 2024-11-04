@@ -58,11 +58,13 @@ const App: React.FC = () => {
               description="We strive to be the first launched swap on the HyperLiquid chain."
             />
           </a>
-          <FeatureCard
-            title="💧 Staking"
-            description="Our objective is to become the first stakeable token on the Hyperliquid blockchain, Stake your PUDDLE to make it DOUBLE."
-            glowIntensity="high"
-          />
+          <a href="https://stake.puddlehl.com"></a>
+            <FeatureCard
+              title="💧 Staking"
+              description="Our objective is to become the first stakeable token on the Hyperliquid blockchain, Stake your PUDDLE to make it DOUBLE."
+              glowIntensity="high"
+            />
+          </a>
           <FeatureCard
             title="🎨 NFT Collection"
             description="A single puddle, when divided, transforms into countless smaller puddles—each unique in its own way. This concept embodies the essence of our NFT creation."
