@@ -63,7 +63,7 @@ const App: React.FC = () => {
           <a href="https://stake.puddlehl.com">
             <FeatureCard
               title="💧 Staking"
-              description="Our objective is to become the first stakeable token on the Hyperliquid blockchain, Stake your PUDDLE to make it DOUBLE."
+              description="Our objective is to become the first stakeable token on the Hyperliquid blockchain."
               glowIntensity="high"
               isLink="true"
             />
