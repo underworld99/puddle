@@ -5,13 +5,15 @@ interface FeatureCardProps {
   description: string;
   glowIntensity?: 'normal' | 'high';
   special?: boolean;
+  isLink?: 'true' | 'false';
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({ 
   title, 
   description, 
   glowIntensity = 'normal',
-  special = false
+  special = false,
+  isLink = 'false'
 }) => {
   const glowStyles = {
     normal: 'hover:border-[#91F1FF]/30',
@@ -33,7 +35,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       
       <h3 className="text-2xl font-bold text-[#91F1FF] mb-4 
         group-hover:text-[#91F1FF]/90 transition-colors relative z-10">
-        {title}
+        {title}{isLink == 'true' && (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-square-arrow-out-up-right"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/></svg>)}
       </h3>
       <p className="text-[#91F1FF]/80 text-lg leading-relaxed relative z-10">
         {description}

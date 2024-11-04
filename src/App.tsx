@@ -50,12 +50,14 @@ const App: React.FC = () => {
               description="Enjoy exclusive Puddle games and earn PUDDLE tokens as rewards for top-performing players."
               glowIntensity="high"
               special
+              isLink="true"
             />
           </a>
           <a href="https://swap.puddlehl.com">
             <FeatureCard
               title="🔁 Puddle Swap"
               description="We strive to be the first launched swap on the HyperLiquid chain."
+              isLink="true"
             />
           </a>
           <a href="https://stake.puddlehl.com">
@@ -63,6 +65,7 @@ const App: React.FC = () => {
               title="💧 Staking"
               description="Our objective is to become the first stakeable token on the Hyperliquid blockchain, Stake your PUDDLE to make it DOUBLE."
               glowIntensity="high"
+              isLink="true"
             />
           </a>
           <FeatureCard
